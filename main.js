@@ -42,3 +42,13 @@ favoriteMovies.forEach (movieInfo => {
     }
     console.log("")
 })
+
+let currentAge = 28;
+console.log("Edad Actual:", currentAge, "años");
+currentAge++;
+console.log("Edad el próximo año:", currentAge, "años");
+console.log("")
+
+favoriteSeries.push("Game of thrones");
+console.log(`Series Favoritas: ${favoriteSeries.join(", ")}`);
+
